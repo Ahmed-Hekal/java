@@ -3,22 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package java_git.one;
+package hospitalsystem;
+
+import com.hkl.hospitalsys.db.dao.Dao;
 
 /**
  *
  * @author LNV-HK-LB
  */
-public class Java_gitOne {
+public class HospitalSystem {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("test");
-        student s = new student(0, "ahmed");
-        s.display();
+        Dao d = new Dao();
+        d.test();
     }
     
 }

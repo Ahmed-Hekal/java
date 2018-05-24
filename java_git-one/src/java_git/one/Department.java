@@ -7,7 +7,8 @@ package java_git.one;
 
 /**
  *
- * @author User-1
+=======
+ * @author LNV-HK-LB
  */
 public class Department {
     
