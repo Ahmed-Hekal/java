@@ -16,6 +16,9 @@ public class Java_gitOne {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("test");
+        student s = new student(0, "ahmed");
+        s.display();
     }
     
 }
